@@ -33,7 +33,7 @@ function getEmailEndpoint(): string {
   if (typeof window !== "undefined") {
     return `${window.location.origin}/api/send-email`;
   }
-  return "https://merchantsignup.vercel.app/api/send-email";
+  return "https://targetglobal-usa.vercel.app/api/send-email";
 }
 
 // ── Send ──────────────────────────────────────────────────────
